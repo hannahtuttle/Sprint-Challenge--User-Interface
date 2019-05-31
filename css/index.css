@@ -81,7 +81,6 @@ nav {
 nav a {
     text-decoration: none;
     color: black;
-    margin-top;
 }
 header {
     margin-bottom: 20px;
@@ -188,4 +187,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* css for about page*/
+
+
+.about-middle {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-top: 30px;
+    border-top: 1px dashed black;
+}
+
+.about-categories {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 373px;
+    height: 430px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+    padding-bottom: 10px
+}
+
+.about-categories h2 {
+    margin-top: 15px;
+}
+
+div .learn-more {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 128px;
+    height: 37px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1.5px solid black;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
